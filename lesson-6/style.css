@@ -1,0 +1,21 @@
+input {
+  background: #ff00ff; 
+  color: green
+}
+input {
+  background: none;
+}
+
+green-input {
+  background: green; 
+  color:red
+}
+.margin 20 {
+  margin-left: 20px
+}
+label {
+  color: blue;
+}
+#vechicle3 {
+  width: 33px
+}
