@@ -1,21 +1,25 @@
 input {
-  background: #ff00ff; 
-  color: green
-}
-input {
-  background: none;
+    background: red; /* Comment */
+    color: green;
 }
 
-green-input {
-  background: green; 
-  color:red
+input {
+    background: none;
 }
-.margin 20 {
-  margin-left: 20px
+
+.green-input {
+    background: green;
+    color: red;
 }
+
+.margin20 {
+    margin-left: 20px;
+}
+
 label {
-  color: blue;
+    color: blue;
 }
-#vechicle3 {
-  width: 33px
+
+#vehicle3 {
+    width: 33px;
 }
