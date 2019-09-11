@@ -1,0 +1,117 @@
+body {
+    background-color: white;
+    background: url("./img/ava7patterns_wallpaper_1920x1080_1811.png");
+    overflow: auto;
+}
+@font-face { 
+	font-family: 'Lobster', cursive;
+	font-family: 'Lora', serif;
+}
+#name-of-book, #title-of-book {
+	font-family: Lobster;
+	box-sizing: border-box;
+    padding: 10px;
+}
+.img-of-book {
+    position: relative; /* Относительное позиционирование */
+    transition: 1s; /* Время анимации */
+}
+.img-of-book:hover {
+    z-index: 10; /* Поверх всех картинок */
+    transform: scale(1.15); /* Масштабирование на 15% */
+}
+.text-page1{
+	font-family: Lora;
+	text-align: justify;
+	padding: 10px;
+}
+.heading2, .heading3{
+	font-family: Lobster;
+	text-align: center;
+}
+.heading4{
+	font-family: Lobster;
+	text-align: left;
+}
+aside { padding: 0; margin: 0;
+	position: fixed; /* Фиксированное позиционирование */
+	right: 0; 
+    top: 0; /* Положение сверху */
+    margin-right: 30px;
+	margin-top: 30px;
+    
+    box-sizing: content-box;
+    
+    background-color: red;
+
+}
+.share-on-social {
+    display: inline-block;
+    right: 0; 
+    top: 0; /* Положение сверху */
+    width: 89px;
+    height: 88px;
+    background: url("./img/social.jpg") 0 0 no-repeat;
+    position: relative; /* Относительное позиционирование */
+    transition: 2s;
+}
+.facebook {
+   background-position: -30px -29px;
+}
+.whatsup {
+   background-position: -149px -29px;
+}
+.skype {
+   background-position: -508px -29px;
+}
+.instagram {
+   background-position: -30px -149px;
+}
+.linkedin {
+   background-position: -149px -149px;
+}
+.text-hidden {
+
+	font-family: Lora;
+	text-align: justify;
+	visibility: hidden;
+	width: 89px;
+    height: 88px;
+	position: relative; /* Относительное позиционирование */
+	transition: 2s;
+}
+.share-on-social:hover {
+    z-index: 10; /* Поверх всех картинок */
+    transition: 2s; /* Время анимации */
+    transform: scale(1.20); /* Масштабирование на 20% */
+    visibility: visible;
+
+}
+
+
+
+
+
+.home:hover, .back:hover, .forward:hover {
+    background-position-y: -45px;
+}
+
+/*.image-link:hover {*/
+/*    background-position-y: -45px;*/
+/*}*/
+button {
+    background: #CE242B; /* Красный фон */
+    color: #fff; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: .7rem 2rem; /* Поля вокруг текста */
+    box-shadow: 5px 5px 0 #000; /* Параметры тени */
+    position: relative; /* Относительное позиционирование */
+    left: 0; /* Положение слева */
+    top: 0; /* Положение сверху */
+    transition: 1s; /* Время анимации */
+}
+button:hover {
+    left: 5px; /* Положение слева */
+    top: 5px; /* Положение сверху */
+    box-shadow: 0 0 0 #000; /* Параметры тени */
+}
