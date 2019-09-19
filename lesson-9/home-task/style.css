@@ -41,14 +41,14 @@ aside { padding: 0; margin: 0;
 	margin-top: 30px;
     
     box-sizing: content-box;
+    width: 89px;
+    height: 120px;
     
-    background-color: red;
+    background-color: none;
 
 }
 .share-on-social {
     display: inline-block;
-    right: 0; 
-    top: 0; /* Положение сверху */
     width: 89px;
     height: 88px;
     background: url("./img/social.jpg") 0 0 no-repeat;
@@ -71,47 +71,17 @@ aside { padding: 0; margin: 0;
    background-position: -149px -149px;
 }
 .text-hidden {
-
 	font-family: Lora;
 	text-align: justify;
 	visibility: hidden;
 	width: 89px;
-    height: 88px;
-	position: relative; /* Относительное позиционирование */
-	transition: 2s;
+    height: 120px;
+    position: absolute;
 }
 .share-on-social:hover {
     z-index: 10; /* Поверх всех картинок */
     transition: 2s; /* Время анимации */
     transform: scale(1.20); /* Масштабирование на 20% */
     visibility: visible;
-
 }
-
-
-
-
-
-.home:hover, .back:hover, .forward:hover {
-    background-position-y: -45px;
-}
-
-/*.image-link:hover {*/
-/*    background-position-y: -45px;*/
-/*}*/
-button {
-    background: #CE242B; /* Красный фон */
-    color: #fff; /* Белый цвет текста */
-    border: none; /* Убираем рамку */
-    padding: .7rem 2rem; /* Поля вокруг текста */
-    box-shadow: 5px 5px 0 #000; /* Параметры тени */
-    position: relative; /* Относительное позиционирование */
-    left: 0; /* Положение слева */
-    top: 0; /* Положение сверху */
-    transition: 1s; /* Время анимации */
-}
-button:hover {
-    left: 5px; /* Положение слева */
-    top: 5px; /* Положение сверху */
-    box-shadow: 0 0 0 #000; /* Параметры тени */
-}
+/* Надо сделать дисплеем (none и block) opasity:1 */
