@@ -13,13 +13,18 @@
     width: 200px;
     height: 500px;
     background: #0FF;
-    
 }
 .majn {
     box-sizing: content-box;   
     background: #FFF;
-    
-    min-width: 100%;
+    margin-left: 201px;
+    margin-right: 201px;
+}
+.h3 {
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;   
 }
 .title {
     background: #FFF;
@@ -28,14 +33,13 @@
 .img {
     float: left;
     box-sizing: content-box;
-    width: 240px;
+    width: 188;
     height: 140px;
-    min-width: 240px;
+    min-width: 188px;
     min-height: 140px;
     text-align: left;
     margin: 0px 10px 10px 10px;
 }
-
 .text {
     box-sizing: inherit;
     text-align: justify; 
@@ -59,8 +63,6 @@ header, footer {
     }
     .majn {
         margin: 0 auto;
-       
         height: 100%;
-        
     }
 }
