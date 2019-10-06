@@ -1,7 +1,7 @@
 {
   "name": "package.json",
   "version": "1.0.0",
-  "description": "\"\"",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,14 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/HennadziSalama/FrontendHomeTask.git"
   },
-  "author": "HENNADZI SALAMA",
+  "author": "Hennadzi Salama",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/HennadziSalama/FrontendHomeTask/issues"
   },
   "homepage": "https://github.com/HennadziSalama/FrontendHomeTask#readme",
   "dependencies": {
-    "bootstrap": "^4.3.1"
+    "bootstrap": "^4.3.1",
+    "jquery": "^1.9.1",
+    "popper.js": "^1.14.7"
   },
   "devDependencies": {
     "lodash": "^4.17.15"
