@@ -101,6 +101,9 @@ header {
 }
 
 #fourth {
+  padding-bottom: $bigPadMd;
+  @media (min-width: map-get($grid-breakpoints, "md") ) {
+  padding-bottom: $bigPadMd;}
   p {
     max-width: 400px;
     margin: 0 auto;
@@ -111,8 +114,8 @@ header {
     color: $sectionGrey;
     padding-top: $bigPadSm;
     @media (min-width: map-get($grid-breakpoints, "md") ) {
-    padding-top: $bigPadSm;
-    }
+    padding-top: $bigPadSm;}
+    
     .lef {
       padding-right: $formPaddingRight;
     }
@@ -120,22 +123,35 @@ header {
       padding-left: $formPaddingLeft;
     }
     .mes {
-      padding-bottom: $bigPadSm;
-      @media (min-width: map-get($grid-breakpoints, "md") ) {
-      padding-bottom: $bigPadSm;
+      
+    }
+    
+    .row{
+      
+      margin-left: 0px;
+      margin-right: 0px;
+
+
+      
+      .custom-checkbox{
+      padding-right: 10px;
       }
-    }
-    .custom-checkbox{
-      padding-left: 27px;         
-    }
-  }
-  .btn-md {
-    color: $mainFontColor;
-    font-weight: bold;
-    &:hover {
-      color: $hoverTextColor;
-    }     
+      .btn-md {
+        color: $mainFontColor;
+        font-weight: bold;
+        &:hover {
+          color: $hoverTextColor;
+        }     
+      }
+      .send{
+        margin-right: 0px;
+        padding-right: 0px;
+        text-align: right;
+      }
+    }  
   }
 }
+ 
+
 
 

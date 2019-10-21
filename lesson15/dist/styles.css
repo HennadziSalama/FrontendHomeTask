@@ -7077,32 +7077,37 @@ header {
     #second .btn-success:hover {
       color: #333; }
 
-#fourth p {
-  max-width: 400px;
-  margin: 0 auto;
-  color: #c6c8ca; }
-
-#fourth .form-row {
-  margin: 0 auto;
-  color: #c6c8ca;
-  padding-top: 20px; }
+#fourth {
+  padding-bottom: 70px; }
   @media (min-width: 768px) {
-    #fourth .form-row {
-      padding-top: 20px; } }
-  #fourth .form-row .lef {
-    padding-right: 20px; }
-  #fourth .form-row .rig {
-    padding-left: 20px; }
-  #fourth .form-row .mes {
-    padding-bottom: 20px; }
+    #fourth {
+      padding-bottom: 70px; } }
+  #fourth p {
+    max-width: 400px;
+    margin: 0 auto;
+    color: #c6c8ca; }
+  #fourth .form-row {
+    margin: 0 auto;
+    color: #c6c8ca;
+    padding-top: 20px; }
     @media (min-width: 768px) {
-      #fourth .form-row .mes {
-        padding-bottom: 20px; } }
-  #fourth .form-row .custom-checkbox {
-    padding-left: 27px; }
-
-#fourth .btn-md {
-  color: #fff;
-  font-weight: bold; }
-  #fourth .btn-md:hover {
-    color: #333; }
+      #fourth .form-row {
+        padding-top: 20px; } }
+    #fourth .form-row .lef {
+      padding-right: 20px; }
+    #fourth .form-row .rig {
+      padding-left: 20px; }
+    #fourth .form-row .row {
+      margin-left: 0px;
+      margin-right: 0px; }
+      #fourth .form-row .row .custom-checkbox {
+        padding-right: 10px; }
+      #fourth .form-row .row .btn-md {
+        color: #fff;
+        font-weight: bold; }
+        #fourth .form-row .row .btn-md:hover {
+          color: #333; }
+      #fourth .form-row .row .send {
+        margin-right: 0px;
+        padding-right: 0px;
+        text-align: right; }
